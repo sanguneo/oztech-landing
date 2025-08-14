@@ -32,10 +32,21 @@
         label,
       });
     }
+
+    function isMobile() {
+      var userAgent = navigator.userAgent;
+      var mobile = /(iPhone|iPad|Android|BlackBerry|Windows Phone)/i.test(userAgent);
+      return mobile;
+    }
+
     function onClickImage() {
-      window.open('https://smartstore.naver.com/01063144415', '_blank');
       gaClick('clickBanner', 'click');
-      window.close();
+      if (isMobile()) {
+        location.href = 'https://smartstore.naver.com/01063144415';
+      } else {
+        window.open('https://smartstore.naver.com/01063144415', '_blank');
+        window.close();
+      }
     }
   </script>
 </head>
