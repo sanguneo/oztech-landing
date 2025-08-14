@@ -258,4 +258,5 @@ body > div > img{
   margin: 0 auto;
   max-width: 860px;
   width: 100%;
+  cursor: pointer;
 }
