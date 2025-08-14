@@ -255,4 +255,7 @@ body > div {
 }
 body > div > img{
   display: block;
+  margin: 0 auto;
+  max-width: 860px;
+  width: 100%;
 }
