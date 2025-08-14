@@ -1,0 +1,16 @@
+.output
+.data
+.cache
+dist
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+
+# Local env files
+.env
+.env.*
+!.env.example

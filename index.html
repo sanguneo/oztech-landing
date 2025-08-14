@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>OZ Tech</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta property="og:title" content="OZ Tech" />
+  <meta property="og:description" content="가족을 사랑한다면 오즈테크! 업소용 가스렌지, 버너, 초음파 식기세척기 제조 전문업체" />
+  <meta property="og:image" content="https://oztech-landing.github.io/assets/img/ogimage.jpg" />
+  <meta property="og:url" content="https://oztech-landing.github.io" />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="./assets/css/app.css" as="style" />
+<!--  &lt;!&ndash; Google tag (gtag.js) &ndash;&gt;-->
+<!--  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GVDTJ5QWZY"></script>-->
+<!--  <script>-->
+<!--    window.dataLayer = window.dataLayer || [];-->
+<!--    function gtag(){-->
+<!--      dataLayer.push(arguments);-->
+<!--    }-->
+<!--    gtag('js', new Date());-->
+<!--    gtag('config', 'G-GVDTJ5QWZY');-->
+<!--  </script>-->
+  <script>
+    function jp(obj) {
+      try { JSON.parse(obj); } catch (e) { return obj; }
+    }
+    function gaEvent(event, meta) {
+      return gtag('event', event, jp(meta));
+    }
+    function gaClick(action, label) {
+      return gtag('event', action, {
+        event_category: 'click',
+        label,
+      });
+    }
+    function onClickImage() {
+      window.open('https://smartstore.naver.com/01063144415', '_blank');
+      gaClick('clickBanner', 'click');
+    }
+  </script>
+</head>
+
+<body>
+  <div onclick="onClickImage()">
+    <img src="/assets/images/resources/row-1-column-1.webp" alt="">
+    <img src="/assets/images/resources/row-2-column-1.webp" alt="">
+    <img src="/assets/images/resources/row-3-column-1.webp" alt="">
+    <img src="/assets/images/resources/row-4-column-1.webp" alt="">
+    <img src="/assets/images/resources/row-5-column-1.webp" alt="">
+    <img src="/assets/images/resources/row-6-column-1.webp" alt="">
+    <img src="/assets/images/resources/row-7-column-1.webp" alt="">
+    <img src="/assets/images/resources/row-8-column-1.webp" alt="">
+    <img src="/assets/images/resources/row-9-column-1.webp" alt="">
+    <img src="/assets/images/resources/row-10-column-1.webp" alt="">
+    <img src="/assets/images/resources/row-11-column-1.webp" alt="">
+    <img src="/assets/images/resources/row-12-column-1.webp" alt="">
+    <img src="/assets/images/resources/row-13-column-1.webp" alt="">
+    <img src="/assets/images/resources/row-14-column-1.webp" alt="">
+    <img src="/assets/images/resources/row-15-column-1.webp" alt="">
+    <img src="/assets/images/resources/row-16-column-1.webp" alt="">
+    <img src="/assets/images/resources/row-17-column-1.webp" alt="">
+    <img src="/assets/images/resources/row-18-column-1.webp" alt="">
+  </div>
+</body>
+</html>
